@@ -2,85 +2,136 @@
 
 # Web3 Security Tools Hub
 
-Built and maintained by [www.pashov.com](https://pashov.com)
+A curated list of AI tools for smart-contract security. Built and maintained by [pashov.com](https://pashov.com).
 
-## Free and Open Source Tools
+**How to choose:**
+- 🛠️ **Want something you install and run yourself?** → [Free & Open Source](#free--open-source)
+- 💼 **Want a managed platform or service?** → [Paid & Closed Source](#paid--closed-source)
+- 🔤 **Looking for your language?** → jump straight from the Contents below.
 
-| Tool | Type | Technology |
-|------|------|------------|
-| ⭐ [pashov/skills](https://github.com/pashov/skills) | Solidity Audit Skill | Solidity |
-| [Cyfrin/solskill](https://github.com/Cyfrin/solskill) | Solidity Security Development Skill | Solidity |
-| [quillai-network/qs_skills](https://github.com/quillai-network/qs_skills) | Security Audit Skills | Solidity |
-| [kadenzipfel/scv-scan](https://github.com/kadenzipfel/scv-scan) | SCV Scan Skill | Solidity |
-| [Archethect/sc-auditor](https://github.com/Archethect/sc-auditor) | Smart Contract Security Auditor Skill | Solidity |
-| [auditmos/skills](https://github.com/auditmos/skills) | Security Audit Skills | Solidity |
-| [zerocoolailabs/ZeroSkills](https://github.com/zerocoolailabs/ZeroSkills) | Vulnerability Detector Skill | Solidity |
-| [KannAILabs/Solidity-AI-security-auditor](https://github.com/KannAILabs/Solidity-AI-security-auditor) | AI-powered smart contract security audit tool | Solidity |
-| [alt-research/SolidityGuard](https://github.com/alt-research/SolidityGuard) | Solidity/EVM smart contract security auditor | Solidity |
-| [GPTScan/GPTScan](https://github.com/GPTScan/GPTScan) | GPT + Program Analysis Logic Vulnerability Detector | Solidity |
-| [Frankcastleauditor/safe-solana-builder](https://github.com/Frankcastleauditor/safe-solana-builder) | Rust Security Development Skill | Rust |
-| [sanbir/move-auditor-skills](https://github.com/sanbir/move-auditor-skills) | Move Auditor Skills | Move |
-| [pantheraudits/move-auditor](https://github.com/pantheraudits/move-auditor/) | Move Auditor | Move |
-| [trailofbits/skills](https://github.com/trailofbits/skills) | Security Dev Testing Skills | Multi-Lang |
-| [JoranHonig/grimoire](https://github.com/JoranHonig/grimoire) | Co-Auditor Skill | Multi-Lang |
-| [forefy/.context](https://github.com/forefy/.context) | Security Audit Skills | Multi-Lang |
-| [0xiehnnkta/nemesis-auditor](https://github.com/0xiehnnkta/nemesis-auditor) | Security Audit Agent Skill | Multi-Lang |
-| [OpenZeppelin/openzeppelin-skills](https://github.com/OpenZeppelin/openzeppelin-skills) | Secure Development Skills | Multi-Lang |
-| [Monethic/monethic-maia](https://github.com/Monethic/monethic-maia) | AI Auditor | Multi-Lang |
-| [slvDev/weasel](https://github.com/slvDev/weasel) | Solidity static analyzer you can talk to | Multi-Lang |
-| [PlamenTSV/plamen](https://github.com/PlamenTSV/plamen) | Autonomous Web3 security audit agent | Multi-Lang |
-| [hackenproof-public/skills](https://github.com/hackenproof-public/skills) | Triage Skills | Other |
-| [marchev/claudit](https://github.com/marchev/claudit) | Security Findings Skill | Other |
-| [shuvonsec/claude-bug-bounty](https://github.com/shuvonsec/claude-bug-bounty) | AI assisted bounty hunting | Other |
-| [han-sec/trident-fuzz-skill](https://github.com/han-sec/trident-fuzz-skill) | Fuzzing skill | Other |
-| [ZealynxSecurity/krait](https://github.com/ZealynxSecurity/krait) | AI-First Smart Contract Security Auditor | Other |
-| [CDSecurity/cdsecurity-skills](https://github.com/CDSecurity/cdsecurity-skills) | Claude Code Skills for Smart Contract Security | Solidity |
-| [konstantinvelev/AI](https://github.com/konstantinvelev/AI) | Claude Code Skills | Multi-Lang |
-| [galacticcouncil/cl0wdit](https://github.com/galacticcouncil/hydration-node/blob/master/.claude/skills/security_audit/SKILL.md) | Rust AI Auditor | Rust |
-| [DarkNavySecurity/contract-auditor](https://github.com/DarkNavySecurity/web3-skills/tree/main/contract-auditor) | Smart Contract Audit Skill | Solidity |
-| [kaveyjoe/SUIZERO](https://github.com/kaveyjoe/SUIZERO) | AI Security Audits | Move (Sui) |
-| [0xRayaa/scoping-bee](https://github.com/0xRayaa/scoping-bee) | AI-powered Pre-audit Scoping Skill | Solidity / Rust |
-| [cameronkarthik/base-audit-bot](https://github.com/cameronkarthik/base-audit-bot) | Base Audit Bot | Base |
-| [BradMoonUESTC/finite-monkey-engine](https://github.com/BradMoonUESTC/finite-monkey-engine) | AI Engine for Smart Contract Audit | Multi-Lang |
-| [scabench-org/hound](https://github.com/scabench-org/hound) | Language-agnostic AI Auditor | Multi-Lang |
-| [heavyw8t/The-Judge](https://github.com/heavyw8t/The-Judge/tree/710e06a0cee1f43fc551952acce59e3c90fa2141/skill/judge) | Judging Skill | Multi-Lang |
-| [33Audits/cca-audit-agent](https://github.com/33Audits/cca-audit-agent) | Uniswap CCA Audit Agent | Multi-Lang |
-| [gdroz3r/drozer-lite](https://github.com/gdroz3r/drozer-lite) | Smart Contract Vulnerability Scanner | Multi-Lang |
-| [cholakovvv/foundry-poc-mainnet-fork](https://github.com/cholakovvv/foundry-poc-mainnet-fork) | Mainnet-Fork Foundry PoC Skill | Solidity |
-| [J4X-Security/K.I.T](https://github.com/J4X-Security/K.I.T) | Creates a report of already known findings | Multi-Lang |
-| [zzzuhaibmohd/solana-token-extensions-security](https://github.com/zzzuhaibmohd/solana-token-extensions-security) | Solana Audit Skill (Token-2022) | Solana |
-| [RASHMOR1/dlt-auditor](https://github.com/RASHMOR1/dlt-auditor) | DLT Audit Skill | DLT |
+![tools](https://img.shields.io/badge/tools-71-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
 
-## Paid/Closed Source AI Security Tools
+## Contents
 
-| Tool | Type | Technology |
-|------|------|------------|
-| [Cantina Apex](https://cantina.xyz/solutions/code-analyzer/enterprise) | Enterprise AI Audit | General Web3 |
-| [SherlockAI](https://sherlock.xyz/solutions/ai) | Security Analysis Agent | General Web3 |
-| [Savant Chat](https://savant.chat/) | AI Security Audits | General Web3 |
-| [Almanax](https://www.almanax.ai/) | AI Security Engineer | General Web3 |
-| [ChainGPT Auditor](https://www.chaingpt.org/smart-contract-auditor) | AI Smart Contract Auditor | General Web3 |
-| [Bunzz](https://www.bunzz.dev/audit) | AI Audits | General Web3 |
-| [GregoAI](https://grego.ai/) | AI Security | General Web3 |
-| [Testmachine](https://testmachine.ai/) | AI Security | General Web3 |
-| [Octane](https://www.octane.security/) | AI Security Engineer | Solidity / EVM |
-| [Zellic V12](https://v12.zellic.io/) | Autonomous Auditor | Solidity / EVM |
-| [SolidityScan](https://solidityscan.com/) | Smart Contract Scanning Tool | Solidity / EVM |
-| [Solarizer](https://solarizer.io/) | AI Security Engine | Solidity / EVM |
-| [Firepan](https://firepan.com/) | Security Orchestration | Solidity / EVM |
-| [Veritas Protocol](https://www.veritasprotocol.com/) | AI Security Protocol | Solidity / EVM |
-| [Wake Arena](https://wake-arena-stage.web.app/) | Vulnerability scanner | Multi-Lang |
-| [Winfunc](https://winfunc.com/) | Autonomous AI-native security audits | Multi-Lang |
-| [webrainsec](https://webrainsec.io/) | AI-augmented smart contract security | Multi-Lang |
-| [Auron](https://www.auron.xyz/) | Autonomous AI security researcher | Multi-Lang |
-| [AuditHub](https://audithub.dev/) | Automated Security Scanner | Multi-Lang |
-| [Nethermind AuditAgent](https://auditagent.nethermind.io/) | AI Audit Agent | Multi-Lang |
-| [Critikalai](https://www.critikalai.com/) | AI Security | Multi-Lang |
-| [Kritt.ai](https://kritt.ai/#about) | AI-powered Security tailored for Blockchain | Multi-Lang |
-| [Redvolt.ai](https://redvolt.ai/web3-auditor) | AI Security Auditor | Multi-Lang |
-| [Olympix](https://olympix.security/) | Pre-deployment Security | Multi-Lang |
-| [AuditBase](https://www.auditbase.com/) | Smart Contract Scan | Solidity |
-| [Guardix](https://guardix.io/) | AI-powered Audits | Multi-Lang |
-| [Cecuro](https://cecuro.ai/) | AI-powered Smart Contract Auditing Platform | Multi-Lang |
-| [Zerodrift](https://zerodrift.xyz/) | Autonomous Security Tool | Multi-Lang |
-| [Hakira](https://www.hakira.io/) | AI Security | Multi-Lang |
+**Free & Open Source** — [Solidity / EVM (14)](#solidity--evm) · [Rust / Solana (3)](#rust--solana) · [Move (3)](#move) · [Multi-Language (22)](#multi-language)
+
+**Paid & Closed Source** — [Solidity / EVM (7)](#solidity--evm-1) · [Multi-Language (22)](#multi-language-1)
+
+---
+
+## Free & Open Source
+
+### Solidity / EVM
+
+| Tool | What it does |
+|------|--------------|
+| ⭐ [pashov/skills](https://github.com/pashov/skills) | Full multi-pass Solidity audit skill |
+| [alt-research/SolidityGuard](https://github.com/alt-research/SolidityGuard) | Solidity/EVM smart-contract security auditor |
+| [Archethect/sc-auditor](https://github.com/Archethect/sc-auditor) | Smart-contract security auditor skill |
+| [auditmos/skills](https://github.com/auditmos/skills) | Smart-contract security audit skills |
+| [cameronkarthik/base-audit-bot](https://github.com/cameronkarthik/base-audit-bot) | Audit bot tuned for Base contracts |
+| [CDSecurity/cdsecurity-skills](https://github.com/CDSecurity/cdsecurity-skills) | Claude Code skills for contract security |
+| [cholakovvv/foundry-poc-mainnet-fork](https://github.com/cholakovvv/foundry-poc-mainnet-fork) | Generates Foundry mainnet-fork PoCs |
+| [Cyfrin/solskill](https://github.com/Cyfrin/solskill) | Secure-dev guardrails while you write Solidity |
+| [DarkNavySecurity/contract-auditor](https://github.com/DarkNavySecurity/web3-skills/tree/main/contract-auditor) | Smart-contract audit skill |
+| [GPTScan](https://github.com/GPTScan/GPTScan) | GPT + static analysis to catch logic bugs |
+| [kadenzipfel/scv-scan](https://github.com/kadenzipfel/scv-scan) | Scans for common contract vulnerabilities |
+| [KannAILabs/Solidity-AI-security-auditor](https://github.com/KannAILabs/Solidity-AI-security-auditor) | AI-powered smart-contract audit tool |
+| [quillai-network/qs_skills](https://github.com/quillai-network/qs_skills) | QuillAI security audit skills |
+| [zerocoolailabs/ZeroSkills](https://github.com/zerocoolailabs/ZeroSkills) | Vulnerability detector skill |
+
+### Rust / Solana
+
+| Tool | What it does |
+|------|--------------|
+| [Frankcastleauditor/safe-solana-builder](https://github.com/Frankcastleauditor/safe-solana-builder) | Secure Rust/Solana development guardrails |
+| [galacticcouncil/cl0wdit](https://github.com/galacticcouncil/hydration-node/blob/master/.claude/skills/security_audit/SKILL.md) | Rust AI auditor embedded in a node repo |
+| [zzzuhaibmohd/solana-token-extensions-security](https://github.com/zzzuhaibmohd/solana-token-extensions-security) | Audits Solana Token-2022 extensions |
+
+### Move
+
+| Tool | What it does |
+|------|--------------|
+| [kaveyjoe/SUIZERO](https://github.com/kaveyjoe/SUIZERO) | AI security audits for Sui Move |
+| [pantheraudits/move-auditor](https://github.com/pantheraudits/move-auditor/) | Move smart-contract auditor |
+| [sanbir/move-auditor-skills](https://github.com/sanbir/move-auditor-skills) | Audit skills for Move contracts |
+
+### Multi-Language
+
+<details>
+<summary><b>22 tools</b> — click to expand</summary>
+
+| Tool | What it does |
+|------|--------------|
+| [0xiehnnkta/nemesis-auditor](https://github.com/0xiehnnkta/nemesis-auditor) | Adversarial security-audit agent skill |
+| [0xRayaa/scoping-bee](https://github.com/0xRayaa/scoping-bee) | AI pre-audit scoping assistant |
+| [33Audits/cca-audit-agent](https://github.com/33Audits/cca-audit-agent) | Uniswap CCA audit agent |
+| [BradMoonUESTC/finite-monkey-engine](https://github.com/BradMoonUESTC/finite-monkey-engine) | AI engine for smart-contract audits |
+| [forefy/.context](https://github.com/forefy/.context) | Security audit skills bundle |
+| [gdroz3r/drozer-lite](https://github.com/gdroz3r/drozer-lite) | Smart-contract vulnerability scanner |
+| [hackenproof-public/skills](https://github.com/hackenproof-public/skills) | Bug-bounty triage skills |
+| [han-sec/trident-fuzz-skill](https://github.com/han-sec/trident-fuzz-skill) | Fuzzing skill (Trident) |
+| [heavyw8t/The-Judge](https://github.com/heavyw8t/The-Judge/tree/710e06a0cee1f43fc551952acce59e3c90fa2141/skill/judge) | Judges and scores audit findings |
+| [J4X-Security/K.I.T](https://github.com/J4X-Security/K.I.T) | Reports already-known findings |
+| [JoranHonig/grimoire](https://github.com/JoranHonig/grimoire) | Co-auditor skill that pairs with you |
+| [konstantinvelev/AI](https://github.com/konstantinvelev/AI) | Collection of Claude Code security skills |
+| [marchev/claudit](https://github.com/marchev/claudit) | Security findings reporting skill |
+| [Monethic/monethic-maia](https://github.com/Monethic/monethic-maia) | Maia AI auditor |
+| [OpenZeppelin/openzeppelin-skills](https://github.com/OpenZeppelin/openzeppelin-skills) | Secure development skills from OpenZeppelin |
+| [PlamenTSV/plamen](https://github.com/PlamenTSV/plamen) | Autonomous web3 audit agent |
+| [RASHMOR1/dlt-auditor](https://github.com/RASHMOR1/dlt-auditor) | Audit skill for DLT systems |
+| [scabench-org/hound](https://github.com/scabench-org/hound) | Language-agnostic AI auditor |
+| [shuvonsec/claude-bug-bounty](https://github.com/shuvonsec/claude-bug-bounty) | AI-assisted bug-bounty hunting |
+| [slvDev/weasel](https://github.com/slvDev/weasel) | Solidity static analyzer you can talk to |
+| [trailofbits/skills](https://github.com/trailofbits/skills) | Security dev & testing skills from Trail of Bits |
+| [ZealynxSecurity/krait](https://github.com/ZealynxSecurity/krait) | AI-first smart-contract auditor |
+
+</details>
+
+---
+
+## Paid & Closed Source
+
+### Solidity / EVM
+
+| Tool | What it does |
+|------|--------------|
+| [AuditBase](https://www.auditbase.com/) | Smart-contract scanner |
+| [Firepan](https://firepan.com/) | Security orchestration platform |
+| [Octane](https://www.octane.security/) | AI security engineer for Solidity/EVM |
+| [Solarizer](https://solarizer.io/) | AI security engine |
+| [SolidityScan](https://solidityscan.com/) | Smart-contract scanning tool |
+| [Veritas Protocol](https://www.veritasprotocol.com/) | AI security protocol |
+| [Zellic V12](https://v12.zellic.io/) | Autonomous EVM auditor |
+
+### Multi-Language
+
+<details>
+<summary><b>22 tools</b> — click to expand</summary>
+
+| Tool | What it does |
+|------|--------------|
+| [Almanax](https://www.almanax.ai/) | AI security engineer |
+| [AuditHub](https://audithub.dev/) | Automated security scanner |
+| [Auron](https://www.auron.xyz/) | Autonomous AI security researcher |
+| [Bunzz](https://www.bunzz.dev/audit) | AI smart-contract audits |
+| [Cantina Apex](https://cantina.xyz/solutions/code-analyzer/enterprise) | Enterprise AI code analyzer |
+| [Cecuro](https://cecuro.ai/) | AI smart-contract auditing platform |
+| [ChainGPT Auditor](https://www.chaingpt.org/smart-contract-auditor) | AI smart-contract auditor |
+| [Critikalai](https://www.critikalai.com/) | AI security analysis |
+| [GregoAI](https://grego.ai/) | AI security platform |
+| [Guardix](https://guardix.io/) | AI-powered audits |
+| [Hakira](https://www.hakira.io/) | AI security platform |
+| [Kritt.ai](https://kritt.ai/#about) | AI security built for blockchains |
+| [Nethermind AuditAgent](https://auditagent.nethermind.io/) | AI audit agent from Nethermind |
+| [Olympix](https://olympix.security/) | Pre-deployment security tooling |
+| [Redvolt.ai](https://redvolt.ai/web3-auditor) | AI security auditor |
+| [Savant Chat](https://savant.chat/) | Chat-based AI security audits |
+| [SherlockAI](https://sherlock.xyz/solutions/ai) | Security analysis agent |
+| [Testmachine](https://testmachine.ai/) | AI security testing |
+| [Wake Arena](https://wake-arena-stage.web.app/) | Vulnerability scanner |
+| [webrainsec](https://webrainsec.io/) | AI-augmented contract security |
+| [Winfunc](https://winfunc.com/) | Autonomous AI-native security audits |
+| [Zerodrift](https://zerodrift.xyz/) | Autonomous security tool |
+
+</details>
