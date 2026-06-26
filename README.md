@@ -9,11 +9,11 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 - 💼 **Want a managed platform or service?** → [Paid & Closed Source](#paid--closed-source)
 - 🔤 **Looking for your language?** → jump straight from the Contents below.
 
-![tools](https://img.shields.io/badge/tools-71-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
+![tools](https://img.shields.io/badge/tools-72-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
 
 ## Contents
 
-**Free & Open Source** — [Solidity / EVM (14)](#solidity--evm) · [Rust / Solana (3)](#rust--solana) · [Move (3)](#move) · [Multi-Language (22)](#multi-language)
+**Free & Open Source** — [Solidity / EVM (14)](#solidity--evm) · [Rust / Solana (3)](#rust--solana) · [Move/Sui (4)](#movesui) · [Multi-Language (22)](#multi-language)
 
 **Paid & Closed Source** — [Solidity / EVM (7)](#solidity--evm-1) · [Multi-Language (22)](#multi-language-1)
 
@@ -48,10 +48,11 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 | [galacticcouncil/cl0wdit](https://github.com/galacticcouncil/hydration-node/blob/master/.claude/skills/security_audit/SKILL.md) | Rust AI auditor embedded in a node repo |
 | [zzzuhaibmohd/solana-token-extensions-security](https://github.com/zzzuhaibmohd/solana-token-extensions-security) | Audits Solana Token-2022 extensions |
 
-### Move
+### Move/Sui
 
 | Tool | What it does |
 |------|--------------|
+| [exvulsec/sui-move-skill](https://github.com/exvulsec/sui-move-skill) | Autonomous Sui Move security audit skill for Codex |
 | [kaveyjoe/SUIZERO](https://github.com/kaveyjoe/SUIZERO) | AI security audits for Sui Move |
 | [pantheraudits/move-auditor](https://github.com/pantheraudits/move-auditor/) | Move smart-contract auditor |
 | [sanbir/move-auditor-skills](https://github.com/sanbir/move-auditor-skills) | Audit skills for Move contracts |
