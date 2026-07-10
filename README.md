@@ -9,11 +9,11 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 - 💼 **Want a managed platform or service?** → [Paid & Closed Source](#paid--closed-source)
 - 🔤 **Looking for your language?** → jump straight from the Contents below.
 
-![tools](https://img.shields.io/badge/tools-72-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
+![tools](https://img.shields.io/badge/tools-73-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
 
 ## Contents
 
-**Free & Open Source** — [Solidity / EVM (14)](#solidity--evm) · [Rust / Solana (3)](#rust--solana) · [Move/Sui (4)](#movesui) · [Multi-Language (22)](#multi-language)
+**Free & Open Source** — [Solidity / EVM (14)](#solidity--evm) · [Rust / Solana (3)](#rust--solana) · [Move/Sui (4)](#movesui) · [Multi-Language (23)](#multi-language)
 
 **Paid & Closed Source** — [Solidity / EVM (7)](#solidity--evm-1) · [Multi-Language (22)](#multi-language-1)
 
@@ -60,7 +60,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 ### Multi-Language
 
 <details>
-<summary><b>22 tools</b> — click to expand</summary>
+<summary><b>23 tools</b> — click to expand</summary>
 
 | Tool | What it does |
 |------|--------------|
@@ -68,6 +68,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 | [0xRayaa/scoping-bee](https://github.com/0xRayaa/scoping-bee) | AI pre-audit scoping assistant |
 | [33Audits/cca-audit-agent](https://github.com/33Audits/cca-audit-agent) | Uniswap CCA audit agent |
 | [BradMoonUESTC/finite-monkey-engine](https://github.com/BradMoonUESTC/finite-monkey-engine) | AI engine for smart-contract audits |
+| [digger-determsec/digger](https://github.com/digger-determsec/digger) | Evidence-gated multi-language smart-contract analyzer |
 | [forefy/.context](https://github.com/forefy/.context) | Security audit skills bundle |
 | [gdroz3r/drozer-lite](https://github.com/gdroz3r/drozer-lite) | Smart-contract vulnerability scanner |
 | [hackenproof-public/skills](https://github.com/hackenproof-public/skills) | Bug-bounty triage skills |
