@@ -9,11 +9,11 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 - 💼 **Want a managed platform or service?** → [Paid & Closed Source](#paid--closed-source)
 - 🔤 **Looking for your language?** → jump straight from the Contents below.
 
-![tools](https://img.shields.io/badge/tools-74-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
+![tools](https://img.shields.io/badge/tools-75-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
 
 ## Contents
 
-**Free & Open Source** — [Solidity / EVM (14)](#solidity--evm) · [Rust / Solana (3)](#rust--solana) · [Move/Sui (4)](#movesui) · [Multi-Language (23)](#multi-language)
+**Free & Open Source** — [Solidity / EVM (14)](#solidity--evm) · [Rust / Solana (3)](#rust--solana) · [Move/Sui (4)](#movesui) · [Multi-Language (24)](#multi-language)
 
 **Paid & Closed Source** — [Solidity / EVM (8)](#solidity--evm-1) · [Multi-Language (22)](#multi-language-1)
 
@@ -60,7 +60,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 ### Multi-Language
 
 <details>
-<summary><b>23 tools</b> — click to expand</summary>
+<summary><b>24 tools</b> — click to expand</summary>
 
 | Tool | What it does |
 |------|--------------|
@@ -77,6 +77,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 | [J4X-Security/K.I.T](https://github.com/J4X-Security/K.I.T) | Reports already-known findings |
 | [JoranHonig/grimoire](https://github.com/JoranHonig/grimoire) | Co-auditor skill that pairs with you |
 | [konstantinvelev/AI](https://github.com/konstantinvelev/AI) | Collection of Claude Code security skills |
+| [Kritt-ai/open-kritt](https://github.com/Kritt-ai/open-kritt) | Orchestrates AI agents to find real vulnerabilities in code |
 | [marchev/claudit](https://github.com/marchev/claudit) | Security findings reporting skill |
 | [Monethic/monethic-maia](https://github.com/Monethic/monethic-maia) | Maia AI auditor |
 | [OpenZeppelin/openzeppelin-skills](https://github.com/OpenZeppelin/openzeppelin-skills) | Secure development skills from OpenZeppelin |
