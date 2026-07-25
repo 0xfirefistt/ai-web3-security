@@ -108,6 +108,12 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 | [Veritas Protocol](https://www.veritasprotocol.com/) | AI security protocol |
 | [Zellic V12](https://v12.zellic.io/) | Autonomous EVM auditor |
 
+### Rust / Solana
+
+| Tool | What it does |
+|------|--------------|
+| [TNT House Risk-Data API](https://www.tnt-audit.com/risk-api) | Solana token risk scoring & on-chain insider-cluster detection API for AI trading agents |
+
 ### Multi-Language
 
 <details>
