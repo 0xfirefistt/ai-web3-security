@@ -9,13 +9,13 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 - 💼 **Want a managed platform or service?** → [Paid & Closed Source](#paid--closed-source)
 - 🔤 **Looking for your language?** → jump straight from the Contents below.
 
-![tools](https://img.shields.io/badge/tools-75-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
+![tools](https://img.shields.io/badge/tools-76-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
 
 ## Contents
 
 **Free & Open Source** — [Solidity / EVM (15)](#solidity--evm) · [Rust / Solana (3)](#rust--solana) · [Move/Sui (4)](#movesui) · [Multi-Language (24)](#multi-language)
 
-**Paid & Closed Source** — [Solidity / EVM (8)](#solidity--evm-1) · [Multi-Language (22)](#multi-language-1)
+**Paid & Closed Source** — [Solidity / EVM (8)](#solidity--evm-1) · [Multi-Language (23)](#multi-language-1)
 
 ---
 
@@ -112,7 +112,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 ### Multi-Language
 
 <details>
-<summary><b>22 tools</b> — click to expand</summary>
+<summary><b>23 tools</b> — click to expand</summary>
 
 | Tool | What it does |
 |------|--------------|
@@ -122,6 +122,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 | [Bunzz](https://www.bunzz.dev/audit) | AI smart-contract audits |
 | [Cantina Apex](https://cantina.xyz/solutions/code-analyzer/enterprise) | Enterprise AI code analyzer |
 | [Cecuro](https://cecuro.ai/) | AI smart-contract auditing platform |
+| [CertiK AI Auditor](https://aiauditor.certik.com/) | AI auditor for Solidity, Move and Solana Rust |
 | [ChainGPT Auditor](https://www.chaingpt.org/smart-contract-auditor) | AI smart-contract auditor |
 | [Critikalai](https://www.critikalai.com/) | AI security analysis |
 | [GregoAI](https://grego.ai/) | AI security platform |
