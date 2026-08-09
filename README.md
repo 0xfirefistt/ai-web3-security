@@ -106,6 +106,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 
 | Tool | What it does |
 |------|--------------|
+| [zkao](https://zkao.io/) | AI crypto audits |
 | [AuditBase](https://www.auditbase.com/) | Smart-contract scanner |
 | [Firepan](https://firepan.com/) | Security orchestration platform |
 | [Octane](https://www.octane.security/) | AI security engineer for Solidity/EVM |
@@ -122,6 +123,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 
 | Tool | What it does |
 |------|--------------|
+| [zkao](https://zkao.io/) | AI crypto audits |
 | [Almanax](https://www.almanax.ai/) | AI security engineer |
 | [AuditHub](https://audithub.dev/) | Automated security scanner |
 | [Auron](https://www.auron.xyz/) | Autonomous AI security researcher |
