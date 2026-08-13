@@ -9,13 +9,13 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 - 💼 **Want a managed platform or service?** → [Paid & Closed Source](#paid--closed-source)
 - 🔤 **Looking for your language?** → jump straight from the Contents below.
 
-![tools](https://img.shields.io/badge/tools-77-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
+![tools](https://img.shields.io/badge/tools-78-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
 
 ## Contents
 
 **Free & Open Source** — [Solidity / EVM (15)](#solidity--evm) · [Rust / Solana (3)](#rust--solana) · [Move/Sui (4)](#movesui) · [ZK / Circom (1)](#zk--circom) · [Multi-Language (24)](#multi-language)
 
-**Paid & Closed Source** — [Solidity / EVM (8)](#solidity--evm-1) · [Multi-Language (23)](#multi-language-1)
+**Paid & Closed Source** — [Solidity / EVM (8)](#solidity--evm-1) · [Multi-Language (24)](#multi-language-1)
 
 ---
 
@@ -106,7 +106,6 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 
 | Tool | What it does |
 |------|--------------|
-| [zkao](https://zkao.io/) | AI crypto audits |
 | [AuditBase](https://www.auditbase.com/) | Smart-contract scanner |
 | [Firepan](https://firepan.com/) | Security orchestration platform |
 | [Octane](https://www.octane.security/) | AI security engineer for Solidity/EVM |
@@ -118,12 +117,11 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 
 ### Multi-Language
 
-<details>
-<summary><b>23 tools</b> — click to expand</summary>
+<details open>
+<summary><b>24 tools</b></summary>
 
 | Tool | What it does |
 |------|--------------|
-| [zkao](https://zkao.io/) | AI crypto audits |
 | [Almanax](https://www.almanax.ai/) | AI security engineer |
 | [AuditHub](https://audithub.dev/) | Automated security scanner |
 | [Auron](https://www.auron.xyz/) | Autonomous AI security researcher |
@@ -147,5 +145,6 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 | [webrainsec](https://webrainsec.io/) | AI-augmented contract security |
 | [Winfunc](https://winfunc.com/) | Autonomous AI-native security audits |
 | [Zerodrift](https://zerodrift.xyz/) | Autonomous security tool |
+| [zkao](https://zkao.io/) | AI crypto audits |
 
 </details>
