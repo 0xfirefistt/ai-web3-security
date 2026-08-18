@@ -9,13 +9,13 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 - 💼 **Want a managed platform or service?** → [Paid & Closed Source](#paid--closed-source)
 - 🔤 **Looking for your language?** → jump straight from the Contents below.
 
-![tools](https://img.shields.io/badge/tools-82-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
+![tools](https://img.shields.io/badge/tools-83-blue) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp; ⭐ = featured pick
 
 ## Contents
 
 **Free & Open Source** — [Solidity / EVM (17)](#solidity--evm) · [Rust / Solana (3)](#rust--solana) · [Move/Sui (4)](#movesui) · [ZK / Circom (1)](#zk--circom) · [Multi-Language (24)](#multi-language)
 
-**Paid & Closed Source** — [Solidity / EVM (8)](#solidity--evm-1) · [Multi-Language (24)](#multi-language-1)
+**Paid & Closed Source** — [Solidity / EVM (8)](#solidity--evm-1) · [Multi-Language (25)](#multi-language-1)
 
 ---
 
@@ -126,7 +126,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 ### Multi-Language
 
 <details>
-<summary><b>24 tools</b> — click to expand</summary>
+<summary><b>25 tools</b> — click to expand</summary>
 
 | Tool | What it does |
 |------|--------------|
@@ -147,6 +147,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 | [Olympix](https://olympix.security/) | Pre-deployment security tooling |
 | [Redvolt.ai](https://redvolt.ai/web3-auditor) | AI security auditor |
 | [Savant Chat](https://savant.chat/) | Chat-based AI security audits |
+| [Sherlock Audit Engine](https://sherlock.xyz/solutions/audit-engine) | Coordinated security review across LLMs, AI auditors and human researchers |
 | [SherlockAI](https://sherlock.xyz/solutions/ai) | Security analysis agent |
 | [Testmachine](https://testmachine.ai/) | AI security testing |
 | [Wake Arena](https://wake-arena-stage.web.app/) | Vulnerability scanner |
