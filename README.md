@@ -37,7 +37,7 @@ A curated list of AI tools for smart-contract security. Built and maintained by 
 | [DarkNavySecurity/contract-auditor](https://github.com/DarkNavySecurity/web3-skills/tree/main/contract-auditor) | Smart-contract audit skill |
 | [GPTScan](https://github.com/GPTScan/GPTScan) | GPT + static analysis to catch logic bugs |
 | [kadenzipfel/scv-scan](https://github.com/kadenzipfel/scv-scan) | Scans for common contract vulnerabilities |
-| [KannAILabs/Solidity-AI-security-auditor](https://github.com/KannAILabs/Solidity-AI-security-auditor) | AI-powered smart-contract audit tool |
+| [Kann AI](https://github.com/Kann-Audits/model-alpha) | Web3 Security Model for Solidity Auditing |
 | [melanke/defi-spec-driven](https://github.com/melanke/defi-builder-skills/tree/main/plugins/defi-spec-driven) | DeFi protocol design with threat-modeling |
 | [quillai-network/qs_skills](https://github.com/quillai-network/qs_skills) | QuillAI security audit skills |
 | [TarasBrilian/gebug-audit](https://github.com/TarasBrilian/gebug-audit) | EVM audit workflow for Claude Code with AI-driven findings and Foundry PoC validation |
